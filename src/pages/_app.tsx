@@ -1,10 +1,12 @@
 import { ThemeProvider } from "../components/theme";
 import { createGlobalStyle } from "styled-components";
+import { MainNav } from "../app/Navigation";
 
 export default function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider>
       <GlobalStyle />
+      <MainNav />
       <Component {...pageProps} />
     </ThemeProvider>
   );

@@ -12,6 +12,7 @@ export const Home: FC = () => {
 const Container = styled.div`
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 `;
 
 const Title = styled.h1`
