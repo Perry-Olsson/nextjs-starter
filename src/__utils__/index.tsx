@@ -1,6 +1,6 @@
 import React, { FC, ReactElement } from "react";
 import { render, RenderOptions } from "@testing-library/react";
-import { ThemeProvider } from "../components/theme";
+import { ThemeProvider } from "components";
 import { GlobalStyle } from "../pages/_app";
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,5 @@
 import { MainNav } from "../app/Navigation";
-import { darkTheme, lightTheme } from "../components/theme";
-import Home from "../pages/index";
+import { darkTheme, lightTheme } from "components";
 import { fireEvent, render, screen } from "../__utils__";
 
 describe("Theme", () => {
@@ -12,7 +11,9 @@ describe("Theme", () => {
     expect(nav).toHaveStyle(
       `background-color: ${lightTheme.background.primary}`
     );
+
     fireEvent.click(themeToggler);
+
     expect(nav).toHaveStyle(
       `background-color: ${darkTheme.background.primary}`
     );

@@ -1,4 +1,4 @@
-import { ThemeProvider } from "../components/theme";
+import { ThemeProvider } from "components";
 import { createGlobalStyle } from "styled-components";
 import { MainNav } from "../app/Navigation";
 
