@@ -1,10 +1,10 @@
 import { FC } from "react";
 import { Main } from "components";
 
-export const Home: FC = () => {
+export const Services: FC = () => {
   return (
     <Main>
-      <h1>Home Page</h1>
+      <h1>Services</h1>
     </Main>
   );
 };

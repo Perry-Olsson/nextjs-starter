@@ -1,13 +1,16 @@
 import styled from "styled-components";
 import constants from "components/constants";
-import { Button, Flex, useThemeToggler } from "components";
+import { Link, Button, Flex, useThemeToggler } from "components";
+
 export const MainNav = () => {
   const toggle = useThemeToggler();
 
   return (
     <Container as="nav">
       <div>
-        <h2>Home</h2>
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
+        <Link href="/services">Services</Link>
       </div>
       <div>
         <Button onClick={toggle}>Change Theme</Button>

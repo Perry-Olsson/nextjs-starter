@@ -1,13 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App renders a heading 1`] = `
-<div
-  className="Flex-sc-14opyce-0 Home__Container-sc-7h62uv-0 hvJiLq bmxGxE"
+<main
+  className="Main-sc-1h07s3x-0 egPrzL"
 >
-  <h1
-    className="Home__Title-sc-7h62uv-1 cIXWCs"
-  >
+  <h1>
     Home Page
   </h1>
-</div>
+</main>
 `;
