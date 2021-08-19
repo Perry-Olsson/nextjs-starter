@@ -5,7 +5,7 @@ import { fireEvent, render, screen } from "../__utils__";
 describe("Theme", () => {
   it("theme changes on toggle button press", () => {
     render(<MainNav />);
-    const themeToggler = screen.getByRole("button", { name: "theme" });
+    const themeToggler = screen.getByRole("button", { name: "Change Theme" });
     const nav = screen.getByRole("navigation");
 
     expect(nav).toHaveStyle(

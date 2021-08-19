@@ -21,4 +21,8 @@ export const GlobalStyle = createGlobalStyle`
   background: ${({ theme }) => theme.background.primary};
   font-family: Arial, Helvetica, sans-serif;
 }
+
+button {
+  cursor: pointer;
+}
 `;

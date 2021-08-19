@@ -2,7 +2,7 @@
 
 exports[`App renders a heading 1`] = `
 <div
-  className="Home__Container-sc-7h62uv-0 kertYU"
+  className="Flex-sc-14opyce-0 Home__Container-sc-7h62uv-0 hvJiLq bmxGxE"
 >
   <h1
     className="Home__Title-sc-7h62uv-1 cIXWCs"

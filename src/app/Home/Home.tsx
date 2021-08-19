@@ -1,5 +1,6 @@
 import { FC } from "react";
 import styled from "styled-components";
+import { Flex } from "components";
 
 export const Home: FC = () => {
   return (
@@ -9,9 +10,7 @@ export const Home: FC = () => {
   );
 };
 
-const Container = styled.div`
-  display: flex;
-  justify-content: center;
+const Container = styled(Flex)`
   margin-top: 50px;
 `;
 
