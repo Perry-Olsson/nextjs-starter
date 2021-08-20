@@ -9,7 +9,7 @@
     "updateSnapshot": "jest --updateSnapshot"
   },
   "dependencies": {
-    "next": "/Users/perry-olsson/Projects/next.js/packages/next",
+    "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "styled-components": "^5.3.0"
