@@ -18,21 +18,24 @@ exports[`App Navigation 1`] = `
     <a
       className="Link__AnchorTag-sc-y5hrub-0 TUJiH"
       href="/"
-      onClick={[MockFunction]}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
     >
       Home
     </a>
     <a
       className="Link__AnchorTag-sc-y5hrub-0 TUJiH"
       href="/about"
-      onClick={[MockFunction]}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
     >
       About
     </a>
     <a
       className="Link__AnchorTag-sc-y5hrub-0 TUJiH"
       href="/services"
-      onClick={[MockFunction]}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
     >
       Services
     </a>

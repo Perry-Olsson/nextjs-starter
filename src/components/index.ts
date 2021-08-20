@@ -4,3 +4,4 @@ export * from "./Flex";
 export * from "./Button";
 export * from "./Main";
 export * from "./Link";
+export * from "./constants";

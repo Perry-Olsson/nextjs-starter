@@ -19,7 +19,6 @@ module.exports = {
 
     // Handle module aliases
     "^components$": "<rootDir>/components/index.ts",
-    "^components/(.*)$": "<rootDir>/components/$1",
     "^@/components/(.*)$": "<rootDir>/components/$1",
   },
   modulePaths: ["<rootDir>/components/"],

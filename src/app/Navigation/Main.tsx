@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import constants from "components/constants";
-import { Link, Button, Flex, useThemeToggler } from "components";
+import { constants, Link, Button, Flex, useThemeToggler } from "components";
 
 export const MainNav = () => {
   const toggle = useThemeToggler();

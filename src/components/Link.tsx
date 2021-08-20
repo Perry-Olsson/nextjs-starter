@@ -1,17 +1,18 @@
 import React, { FC, forwardRef } from "react";
-import NextLink from "next/link";
+import NextLink, { LinkProps } from "next/link";
 import styled from "styled-components";
 
 interface Props {
   href: string;
+  nextLinkProps?: Omit<LinkProps, "passHref" | "href">;
 }
 
 export const Link = forwardRef<
   HTMLAnchorElement,
   Props & React.AnchorHTMLAttributes<HTMLAnchorElement>
->(({ href, children, ...restProps }, ref) => {
+>(({ href, nextLinkProps, children, ...restProps }, ref) => {
   return (
-    <NextLink href={href} passHref>
+    <NextLink href={href} passHref {...nextLinkProps}>
       <AnchorTag ref={ref} {...restProps}>
         {children}
       </AnchorTag>
